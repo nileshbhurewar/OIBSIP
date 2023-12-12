@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Task2 {
     private static final int MIN_RANGE = 1;
-    private static final int MAX_RANGE = 100;
-    private static final int MAX_ATTEMPTS = 10;
+    private static final int MAX_RANGE = 99;
+    private static final int MAX_ATTEMPTS = 9;
     private static final int MAX_ROUNDS = 3;
 
     public static void main(String[] args) {
