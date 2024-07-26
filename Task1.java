@@ -1,3 +1,5 @@
+
+// this is task one 
 import java.sql.*;
 import java.util.Scanner;
 import java.util.Random;
@@ -165,7 +167,7 @@ public class Task1 {
 
                     else if (choice == 3) {
                         try (PreparedStatement preparedStatement = connection.prepareStatement(ShowQuery);
-                             ResultSet resultSet = preparedStatement.executeQuery()) {
+                                ResultSet resultSet = preparedStatement.executeQuery()) {
                             System.out.println("\nAll records printing.\n");
                             while (resultSet.next()) {
                                 String pnrNumber = resultSet.getString("pnr_number");
